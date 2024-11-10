@@ -1,0 +1,104 @@
+.header {
+    background-color: #D0E8C5;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-family: serif;
+    animation:  slideInTop 2s ease-in-out;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logoContainer {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    height: 75px;
+    border-radius: 50%;
+    border: 2px solid #555;
+  }
+  
+  .titl {
+    margin-left: 15px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #555;
+    font-family: serif;
+    font-size: x-large;
+  }
+  
+  .menuToggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: none;
+  }
+  
+  .menuIcon {
+    width: 32px;
+    height: 32px;
+  }
+  
+  .nav {
+    display: flex;
+    gap: 20px;
+    margin-right: -3cm;
+    
+  }
+  
+  .navLink {
+    text-decoration: none;
+    font-weight: bold;
+    color: #333;
+    font-size:large;
+    
+  }
+  
+  .contactLink {
+    background-color: #FCCD2A;
+    color: #222;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .mobileMenu {
+    margin-top: 10px;
+  }
+  
+  .mobileLink,
+  .mobileContactLink {
+    display: block;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 5px;
+  }
+  
+  .mobileContactLink {
+    background-color: #FCCD2A;
+    color: #222;
+  }
+  
+  @media (max-width: 768px) {
+    .menuToggle {
+        display: flex;
+    }
+    .nav{
+        display: none;
+    }
+    .contactLink{
+        display: none;
+    }
+  }
+
+  

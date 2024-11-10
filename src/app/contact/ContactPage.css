@@ -1,0 +1,83 @@
+/* ContactPage.css */
+
+.contact-container {
+    min-height: 100vh;
+    background-color: #FFFBE6;
+    font-family: Georgia, serif;
+  }
+  
+  .contact-header {
+    background-color: #FCCD2A;
+    padding: 1.5rem;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+    font-weight: bold;
+    animation: fadeInLeft 1s;
+  }
+  
+  .contact-form-section {
+    max-width: 800px;
+    margin: 2rem auto;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2.5rem;
+    animation: fadeInRight 1s;
+  }
+  
+  .contact-heading {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  .contact-description {
+    color: #4A4A4A;
+    margin-bottom: 1.5rem;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .contact-label {
+    display: block;
+    color: #4A4A4A;
+    font-weight: medium;
+    margin-bottom: 0.5rem;
+  }
+  
+  .contact-input {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #D1D5DB;
+    border-radius: 0.5rem;
+    outline: none;
+    transition: border-color 0.3s;
+  }
+  
+  .contact-input:focus {
+    border-color: #FCCD2A;
+    box-shadow: 0 0 0 2px rgba(255, 197, 42, 0.5);
+  }
+  
+  .contact-submit-btn {
+    width: 100%;
+    background-color: #FCCD2A;
+    color: white;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .contact-submit-btn:hover {
+    background-color: #FFB900;
+  }
+  
+  /* Animation for fade-in effects */
